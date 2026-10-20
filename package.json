@@ -1,0 +1,17 @@
+{
+  "name": "ms-shop-manager-payment-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure Razorpay payment backend for MS Shop Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "razorpay": "^2.9.6"
+  }
+}
